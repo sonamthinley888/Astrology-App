@@ -1,0 +1,51 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, #ffff00, #ff7700)
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.input{
+  background-color: white;
+  background-size:contain ;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.all-zodiacs {
+  grid-column: 1 / -1;
+  background-color: #aabbcc;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 100px;
+
+}
+
+
+.button:hover {
+  background-color: #0056b3;
+}
+
