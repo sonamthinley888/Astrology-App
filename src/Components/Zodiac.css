@@ -1,0 +1,68 @@
+/* Container for each Zodiac sign */
+.zodiac-item {
+    background-color: #f4f4f9; /* Soft background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    margin: 10px; /* Spacing around each item */
+    padding: 20px; /* Padding inside the container */
+    text-align: center; /* Center the content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.zodiac-item:hover {
+    transform: scale(1.05); /* Slight scale-up on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+}
+
+/* Image styling */
+.zodiac-item img {
+    width: 120px; /* Size of the image */
+    height: 120px; /* Maintain square aspect ratio */
+    object-fit: cover; /* Ensure image covers the area */
+    border-radius: 50%; /* Round the image */
+    margin-bottom: 5px; /* Space below the image */
+    transition: transform 0.3s ease; /* Smooth zoom on hover */
+}
+
+.zodiac-item img:hover {
+    transform: scale(1.1); /* Zoom effect when hovered */
+}
+
+/* Zodiac Name (Heading) */
+.zodiac-item h2 {
+    font-size: 1 rem; /* Adjust size of the name */
+    color: #333; /* Dark color for the text */
+    font-weight: bold; /* Make the text bold */
+    margin-bottom: 5px; /* Space below the heading */
+}
+
+/* Dates and other info */
+.zodiac-item p {
+    font-size: 1rem; /* Regular text size */
+    color: #666; /* Light gray text */
+    margin-bottom: 8px; /* Space between paragraphs */
+}
+
+/* Traits List */
+.zodiac-item ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0; /* Remove padding */
+}
+
+.zodiac-item ul li {
+    font-size: 1rem; /* Regular text size for traits */
+    color: #444; /* Darker gray for traits */
+    padding: 5px 0; /* Space between traits */
+    border-bottom: 1px solid #ddd; /* Add a small line between traits */
+}
+
+/* Remove border on last trait item */
+.zodiac-item ul li:last-child {
+    border-bottom: none;
+}
+
+/* Element and Ruling Planet details */
+.zodiac-item p span {
+    font-weight: bold; /* Bold labels for Element and Ruling Planet */
+    color: #333;
+}

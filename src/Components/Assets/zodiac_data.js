@@ -12,7 +12,7 @@ import aquarius_img from './images/aquarius_img.jpg'; // Import as aquarius_img
 import pisces_img from './images/pisces_img.jpg'; // Import as pisces_img
 
 
-const zodiac_data = [
+const zodiacs = [
   {
     id: 1,
     name: "Aries",
@@ -123,4 +123,4 @@ const zodiac_data = [
   }
 ];
 
-export default zodiac_data;
+export default zodiacs;
