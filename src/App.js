@@ -22,7 +22,10 @@ export default function App() {
 
   return (
     <div className ="container" >
-      <div> Nav bar
+      <div> 
+        <nav>
+          Nav bar
+        </nav>
 
       </div>
       <div className='header'>

@@ -16,8 +16,8 @@
 
 /* Image styling */
 .zodiac-item img {
-    width: 120px; /* Size of the image */
-    height: 120px; /* Maintain square aspect ratio */
+    width: 130px; /* Size of the image */
+    height: 130px; /* Maintain square aspect ratio */
     object-fit: cover; /* Ensure image covers the area */
     border-radius: 50%; /* Round the image */
     margin-bottom: 5px; /* Space below the image */
